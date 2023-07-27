@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	char name[15]="Kevin Muzonda";
+	char DOB [10]="April 15, 1998";
+	int mobile =99-999999;
+
+	printf("Name	: %s\n",name);
+	printf("DOB	: %s\n",DOB);
+	printf("Mobile	: %d\n",mobile);
+
+	return 0;
+}
