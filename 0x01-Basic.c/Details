@@ -1,5 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
+include <stdio.h>
+include <stdlib.h>
+
+/**
+ * main-prints personal details
+ * return 0
+*/
 
 int main(void)
 {
@@ -11,5 +16,5 @@ int main(void)
 	printf("DOB	: %s\n",DOB);
 	printf("Mobile	: %d\n",mobile);
 
-	return 0;
+	return (0);
 }
